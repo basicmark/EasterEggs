@@ -1,0 +1,20 @@
+name: EasterEggs
+author: basicmark
+description: Electronic Book
+main: io.github.basicmark.eastereggs.EasterEggs
+startup: postworld
+url: None
+depend: []
+softdepend: []
+version: 0.1
+commands:
+    eastereggs:
+        description: Type /eastereggs ? for more info
+        usage: /eastereggs ?
+permissions:
+    eastereggs.cmd.reload:
+        description: Reload the config file
+        default: false
+    eastereggs.cmd.give:
+        description: Give Easter Eggs to a player
+        default: false
